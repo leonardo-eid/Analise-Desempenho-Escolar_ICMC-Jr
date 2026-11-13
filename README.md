@@ -1,8 +1,6 @@
 # 📊 Análise de Desempenho Escolar — Projeto Trainee ICMC Jr
 
-Análise exploratória, testes estatísticos e modelagem preditiva aplicados a dados de desempenho de 1.000 estudantes do ensino médio. Projeto desenvolvido no **Processo Trainee de Estatística 2026.1 da ICMC Júnior** (USP – São Carlos).
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/leonardo-eid/Analise-Desempenho-Escolar_ICMC-Jr/blob/main/exploracaoDeDados.ipynb)
+Análise exploratória e modelagem preditiva aplicados a dados de desempenho de 1.000 estudantes do ensino médio. Projeto desenvolvido no **Processo Trainee de Estatística 2026.1 da ICMC Júnior** (USP – São Carlos).
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![pandas](https://img.shields.io/badge/pandas-data%20wrangling-blue)
@@ -25,8 +23,6 @@ Análise exploratória, testes estatísticos e modelagem preditiva aplicados a d
 - [Conclusões](#-conclusões)
 - [Como executar](#-como-executar)
 - [Tecnologias](#-tecnologias)
-- [Escopo do projeto vs. o que foi feito](#-escopo-do-projeto-vs-o-que-foi-feito)
-- [Autor](#-autor)
 
 ---
 
@@ -238,22 +234,3 @@ Ordem recomendada: `limpezaDeDados.ipynb` → `exploracaoDeDados.ipynb` → `mod
 - **SciPy** — testes estatísticos (Shapiro-Wilk, Spearman)
 - **scikit-learn** — `train_test_split`, `StandardScaler`, `LinearRegression`, `DecisionTreeRegressor`, `r2_score`, `mean_absolute_error`
 - **Jupyter / Google Colab**
-
-## 📋 Escopo do projeto vs. o que foi feito
-
-| Entregável / extra do enunciado | Status |
-|---|---|
-| Heatmap de correlação entre variáveis | ✅ |
-| Distribuição de `final_score` | ✅ |
-| Gráfico de pontos `final_score` × `attendance_percentage` | ✅ |
-| Box plot `daily_study_hours` × `pass_fail` | ✅ |
-| Teste estatístico para a hipótese do gráfico de pontos | ✅ Shapiro-Wilk + Spearman |
-| Extra: predição de `final_score` (regressão linear múltipla e árvore de decisão) | ✅ |
-| Extra: predição de `grade` e `pass_fail` | ⬜ não realizado |
-| Extra: relação entre ansiedade e nota final por grupos | ⬜ não realizado |
-
-## 👤 Autor
-
-**Leonardo Eid** — [@leonardo-eid](https://github.com/leonardo-eid)
-
-Projeto desenvolvido para o Processo Trainee de Estatística 2026.1 da **ICMC Júnior** · Instituto de Ciências Matemáticas e de Computação — USP.
