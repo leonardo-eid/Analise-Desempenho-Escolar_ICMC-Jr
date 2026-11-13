@@ -28,7 +28,7 @@ Análise exploratória e modelagem preditiva aplicados a dados de desempenho de 
 
 ## 🎯 Contexto
 
-O projeto parte de um caso fictício proposto pela ICMC Jr: um cliente, pós-doutorando em pedagogia infantil, acompanhou durante anos **1.000 alunos do ensino médio de São Carlos**, medindo fatores como nota final, desempenho por disciplina, horas de sono, tempo de tela e atividade física. Agora ele quer uma análise profunda das relações entre essas variáveis.
+O projeto parte de um caso fictício proposto pela ICMC Jr: um cliente, pós-doutorando em pedagogia infantil, acompanhou durante anos 1.000 alunos do ensino médio de São Carlos, medindo fatores como nota final, desempenho por disciplina, horas de sono, tempo de tela e atividade física. Agora ele quer uma análise profunda das relações entre essas variáveis.
 
 O enunciado completo (contexto, descrição das colunas, recomendações de estudo e escopo) está em [`docs/Projeto_Trainee_Estatística.pdf`](docs/Projeto_Trainee_Estatística.pdf).
 
@@ -36,8 +36,8 @@ O enunciado completo (contexto, descrição das colunas, recomendações de estu
 
 - Limpar e preparar a base de dados, identificando e tratando inconsistências.
 - Explorar graficamente as relações entre hábitos, contexto e desempenho dos alunos.
-- Verificar estatisticamente a relação entre **frequência escolar** e **nota final**.
-- Investigar se é possível **prever a nota final** de um aluno a partir das demais variáveis.
+- Verificar estatisticamente a relação entre frequência escolar e nota final.
+- Investigar se é possível prever a nota final de um aluno a partir das demais variáveis.
 
 ## 🗂️ Base de dados
 
